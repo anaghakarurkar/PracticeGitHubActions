@@ -7,8 +7,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: 34 2 * * 0
 jobs:
   analyze:
     name: Analyze
